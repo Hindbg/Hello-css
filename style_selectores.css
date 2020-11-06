@@ -1,0 +1,58 @@
+section{
+    font-size: 30px;
+}
+main p{
+    color:blue;
+}
+section>p{
+    color:red;
+}
+h1+p{
+    color:green;
+}
+h1 ~ p{
+    color:magenta
+}
+#parrafo3{
+    color:chocolate
+}
+.parrafo_rosa{
+    color:cyan
+}
+.tamaño_parrafo{
+    font-size:80px;
+}
+h1.mitexto{
+    color:goldenrod;
+}
+p.mitexto{
+    color:fuchsia;
+    font-size: 30px;
+}
+p[name~="frase4"] {
+    color:indigo;
+}
+p[name~="texo"] {
+   color:green;
+}
+p[name^="mi"] {
+    color:grey;
+}
+p[name$="mi"] {
+   color:lightseagreen;
+}
+p[name*="ño"] {
+    color:maroon;
+ }
+ li:nth-child(4){
+     font-size: 50px;
+ }
+ li:first-child{
+     color:maroon;
+ }
+ li:last-child{
+     color:mediumblue;
+ }
+ li:only-child{
+     color:olive;
+ }
